@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1908F841CD988450030FA91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908F831CD988450030FA91 /* main.m */; };
+		F1908F871CD988450030FA91 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908F861CD988450030FA91 /* AppDelegate.m */; };
+		F1908F8A1CD988450030FA91 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908F891CD988450030FA91 /* ViewController.m */; };
+		F1908F8D1CD988450030FA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1908F8B1CD988450030FA91 /* Main.storyboard */; };
+		F1908F8F1CD988450030FA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1908F8E1CD988450030FA91 /* Assets.xcassets */; };
+		F1908F921CD988450030FA91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1908F901CD988450030FA91 /* LaunchScreen.storyboard */; };
+		F1908F9D1CD988450030FA91 /* PNChartDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908F9C1CD988450030FA91 /* PNChartDemoTests.m */; };
+		F1908FA81CD988450030FA91 /* PNChartDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FA71CD988450030FA91 /* PNChartDemoUITests.m */; };
+		F1908FD81CD988520030FA91 /* PNBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FB71CD988520030FA91 /* PNBar.m */; };
+		F1908FD91CD988520030FA91 /* PNBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FB91CD988520030FA91 /* PNBarChart.m */; };
+		F1908FDA1CD988520030FA91 /* PNChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FBD1CD988520030FA91 /* PNChartLabel.m */; };
+		F1908FDB1CD988520030FA91 /* PNCircleChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FBF1CD988520030FA91 /* PNCircleChart.m */; };
+		F1908FDC1CD988520030FA91 /* PNColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FC11CD988520030FA91 /* PNColor.m */; };
+		F1908FDD1CD988520030FA91 /* PNGenericChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FC31CD988520030FA91 /* PNGenericChart.m */; };
+		F1908FDE1CD988520030FA91 /* PNLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FC51CD988520030FA91 /* PNLineChart.m */; };
+		F1908FDF1CD988520030FA91 /* PNLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FC71CD988520030FA91 /* PNLineChartData.m */; };
+		F1908FE01CD988520030FA91 /* PNLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FC91CD988520030FA91 /* PNLineChartDataItem.m */; };
+		F1908FE11CD988520030FA91 /* PNPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FCB1CD988520030FA91 /* PNPieChart.m */; };
+		F1908FE21CD988520030FA91 /* PNPieChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FCD1CD988520030FA91 /* PNPieChartDataItem.m */; };
+		F1908FE31CD988520030FA91 /* PNRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FCF1CD988520030FA91 /* PNRadarChart.m */; };
+		F1908FE41CD988520030FA91 /* PNRadarChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FD11CD988520030FA91 /* PNRadarChartDataItem.m */; };
+		F1908FE51CD988520030FA91 /* PNScatterChart.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FD31CD988520030FA91 /* PNScatterChart.m */; };
+		F1908FE61CD988520030FA91 /* PNScatterChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FD51CD988520030FA91 /* PNScatterChartData.m */; };
+		F1908FE71CD988520030FA91 /* PNScatterChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FD71CD988520030FA91 /* PNScatterChartDataItem.m */; };
+		F1908FEA1CD989E00030FA91 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FE81CD989E00030FA91 /* UIColor+Hex.m */; };
+		F1908FED1CD99C5F0030FA91 /* CenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FEB1CD99C5F0030FA91 /* CenterView.m */; };
+		F1908FF01CD99D950030FA91 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1908FEF1CD99D950030FA91 /* UICountingLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1908F991CD988450030FA91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1908F771CD988440030FA91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1908F7E1CD988440030FA91;
+			remoteInfo = PNChartDemo;
+		};
+		F1908FA41CD988450030FA91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1908F771CD988440030FA91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1908F7E1CD988440030FA91;
+			remoteInfo = PNChartDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1908F7F1CD988440030FA91 /* PNChartDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PNChartDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1908F831CD988450030FA91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1908F851CD988450030FA91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1908F861CD988450030FA91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1908F881CD988450030FA91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1908F891CD988450030FA91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1908F8C1CD988450030FA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1908F8E1CD988450030FA91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1908F911CD988450030FA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1908F931CD988450030FA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1908F981CD988450030FA91 /* PNChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PNChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1908F9C1CD988450030FA91 /* PNChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNChartDemoTests.m; sourceTree = "<group>"; };
+		F1908F9E1CD988450030FA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1908FA31CD988450030FA91 /* PNChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PNChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1908FA71CD988450030FA91 /* PNChartDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNChartDemoUITests.m; sourceTree = "<group>"; };
+		F1908FA91CD988450030FA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1908FB61CD988520030FA91 /* PNBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBar.h; sourceTree = "<group>"; };
+		F1908FB71CD988520030FA91 /* PNBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBar.m; sourceTree = "<group>"; };
+		F1908FB81CD988520030FA91 /* PNBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNBarChart.h; sourceTree = "<group>"; };
+		F1908FB91CD988520030FA91 /* PNBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNBarChart.m; sourceTree = "<group>"; };
+		F1908FBA1CD988520030FA91 /* PNChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChart.h; sourceTree = "<group>"; };
+		F1908FBB1CD988520030FA91 /* PNChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartDelegate.h; sourceTree = "<group>"; };
+		F1908FBC1CD988520030FA91 /* PNChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNChartLabel.h; sourceTree = "<group>"; };
+		F1908FBD1CD988520030FA91 /* PNChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNChartLabel.m; sourceTree = "<group>"; };
+		F1908FBE1CD988520030FA91 /* PNCircleChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNCircleChart.h; sourceTree = "<group>"; };
+		F1908FBF1CD988520030FA91 /* PNCircleChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNCircleChart.m; sourceTree = "<group>"; };
+		F1908FC01CD988520030FA91 /* PNColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNColor.h; sourceTree = "<group>"; };
+		F1908FC11CD988520030FA91 /* PNColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNColor.m; sourceTree = "<group>"; };
+		F1908FC21CD988520030FA91 /* PNGenericChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNGenericChart.h; sourceTree = "<group>"; };
+		F1908FC31CD988520030FA91 /* PNGenericChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNGenericChart.m; sourceTree = "<group>"; };
+		F1908FC41CD988520030FA91 /* PNLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChart.h; sourceTree = "<group>"; };
+		F1908FC51CD988520030FA91 /* PNLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChart.m; sourceTree = "<group>"; };
+		F1908FC61CD988520030FA91 /* PNLineChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartData.h; sourceTree = "<group>"; };
+		F1908FC71CD988520030FA91 /* PNLineChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartData.m; sourceTree = "<group>"; };
+		F1908FC81CD988520030FA91 /* PNLineChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNLineChartDataItem.h; sourceTree = "<group>"; };
+		F1908FC91CD988520030FA91 /* PNLineChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNLineChartDataItem.m; sourceTree = "<group>"; };
+		F1908FCA1CD988520030FA91 /* PNPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPieChart.h; sourceTree = "<group>"; };
+		F1908FCB1CD988520030FA91 /* PNPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPieChart.m; sourceTree = "<group>"; };
+		F1908FCC1CD988520030FA91 /* PNPieChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNPieChartDataItem.h; sourceTree = "<group>"; };
+		F1908FCD1CD988520030FA91 /* PNPieChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNPieChartDataItem.m; sourceTree = "<group>"; };
+		F1908FCE1CD988520030FA91 /* PNRadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRadarChart.h; sourceTree = "<group>"; };
+		F1908FCF1CD988520030FA91 /* PNRadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRadarChart.m; sourceTree = "<group>"; };
+		F1908FD01CD988520030FA91 /* PNRadarChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNRadarChartDataItem.h; sourceTree = "<group>"; };
+		F1908FD11CD988520030FA91 /* PNRadarChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNRadarChartDataItem.m; sourceTree = "<group>"; };
+		F1908FD21CD988520030FA91 /* PNScatterChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChart.h; sourceTree = "<group>"; };
+		F1908FD31CD988520030FA91 /* PNScatterChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChart.m; sourceTree = "<group>"; };
+		F1908FD41CD988520030FA91 /* PNScatterChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChartData.h; sourceTree = "<group>"; };
+		F1908FD51CD988520030FA91 /* PNScatterChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChartData.m; sourceTree = "<group>"; };
+		F1908FD61CD988520030FA91 /* PNScatterChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNScatterChartDataItem.h; sourceTree = "<group>"; };
+		F1908FD71CD988520030FA91 /* PNScatterChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PNScatterChartDataItem.m; sourceTree = "<group>"; };
+		F1908FE81CD989E00030FA91 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		F1908FE91CD989E00030FA91 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F1908FEB1CD99C5F0030FA91 /* CenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterView.m; sourceTree = "<group>"; };
+		F1908FEC1CD99C5F0030FA91 /* CenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterView.h; sourceTree = "<group>"; };
+		F1908FEE1CD99D950030FA91 /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		F1908FEF1CD99D950030FA91 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1908F7C1CD988440030FA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1908F951CD988450030FA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1908FA01CD988450030FA91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1908F761CD988440030FA91 = {
+			isa = PBXGroup;
+			children = (
+				F1908F811CD988450030FA91 /* PNChartDemo */,
+				F1908F9B1CD988450030FA91 /* PNChartDemoTests */,
+				F1908FA61CD988450030FA91 /* PNChartDemoUITests */,
+				F1908F801CD988440030FA91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1908F801CD988440030FA91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1908F7F1CD988440030FA91 /* PNChartDemo.app */,
+				F1908F981CD988450030FA91 /* PNChartDemoTests.xctest */,
+				F1908FA31CD988450030FA91 /* PNChartDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1908F811CD988450030FA91 /* PNChartDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1908FB51CD988520030FA91 /* PNChart */,
+				F1908F851CD988450030FA91 /* AppDelegate.h */,
+				F1908F861CD988450030FA91 /* AppDelegate.m */,
+				F1908F881CD988450030FA91 /* ViewController.h */,
+				F1908F891CD988450030FA91 /* ViewController.m */,
+				F1908FE81CD989E00030FA91 /* UIColor+Hex.m */,
+				F1908FE91CD989E00030FA91 /* UIColor+Hex.h */,
+				F1908FEB1CD99C5F0030FA91 /* CenterView.m */,
+				F1908FEC1CD99C5F0030FA91 /* CenterView.h */,
+				F1908FEE1CD99D950030FA91 /* UICountingLabel.h */,
+				F1908FEF1CD99D950030FA91 /* UICountingLabel.m */,
+				F1908F8B1CD988450030FA91 /* Main.storyboard */,
+				F1908F8E1CD988450030FA91 /* Assets.xcassets */,
+				F1908F901CD988450030FA91 /* LaunchScreen.storyboard */,
+				F1908F931CD988450030FA91 /* Info.plist */,
+				F1908F821CD988450030FA91 /* Supporting Files */,
+			);
+			path = PNChartDemo;
+			sourceTree = "<group>";
+		};
+		F1908F821CD988450030FA91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1908F831CD988450030FA91 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1908F9B1CD988450030FA91 /* PNChartDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1908F9C1CD988450030FA91 /* PNChartDemoTests.m */,
+				F1908F9E1CD988450030FA91 /* Info.plist */,
+			);
+			path = PNChartDemoTests;
+			sourceTree = "<group>";
+		};
+		F1908FA61CD988450030FA91 /* PNChartDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1908FA71CD988450030FA91 /* PNChartDemoUITests.m */,
+				F1908FA91CD988450030FA91 /* Info.plist */,
+			);
+			path = PNChartDemoUITests;
+			sourceTree = "<group>";
+		};
+		F1908FB51CD988520030FA91 /* PNChart */ = {
+			isa = PBXGroup;
+			children = (
+				F1908FB61CD988520030FA91 /* PNBar.h */,
+				F1908FB71CD988520030FA91 /* PNBar.m */,
+				F1908FB81CD988520030FA91 /* PNBarChart.h */,
+				F1908FB91CD988520030FA91 /* PNBarChart.m */,
+				F1908FBA1CD988520030FA91 /* PNChart.h */,
+				F1908FBB1CD988520030FA91 /* PNChartDelegate.h */,
+				F1908FBC1CD988520030FA91 /* PNChartLabel.h */,
+				F1908FBD1CD988520030FA91 /* PNChartLabel.m */,
+				F1908FBE1CD988520030FA91 /* PNCircleChart.h */,
+				F1908FBF1CD988520030FA91 /* PNCircleChart.m */,
+				F1908FC01CD988520030FA91 /* PNColor.h */,
+				F1908FC11CD988520030FA91 /* PNColor.m */,
+				F1908FC21CD988520030FA91 /* PNGenericChart.h */,
+				F1908FC31CD988520030FA91 /* PNGenericChart.m */,
+				F1908FC41CD988520030FA91 /* PNLineChart.h */,
+				F1908FC51CD988520030FA91 /* PNLineChart.m */,
+				F1908FC61CD988520030FA91 /* PNLineChartData.h */,
+				F1908FC71CD988520030FA91 /* PNLineChartData.m */,
+				F1908FC81CD988520030FA91 /* PNLineChartDataItem.h */,
+				F1908FC91CD988520030FA91 /* PNLineChartDataItem.m */,
+				F1908FCA1CD988520030FA91 /* PNPieChart.h */,
+				F1908FCB1CD988520030FA91 /* PNPieChart.m */,
+				F1908FCC1CD988520030FA91 /* PNPieChartDataItem.h */,
+				F1908FCD1CD988520030FA91 /* PNPieChartDataItem.m */,
+				F1908FCE1CD988520030FA91 /* PNRadarChart.h */,
+				F1908FCF1CD988520030FA91 /* PNRadarChart.m */,
+				F1908FD01CD988520030FA91 /* PNRadarChartDataItem.h */,
+				F1908FD11CD988520030FA91 /* PNRadarChartDataItem.m */,
+				F1908FD21CD988520030FA91 /* PNScatterChart.h */,
+				F1908FD31CD988520030FA91 /* PNScatterChart.m */,
+				F1908FD41CD988520030FA91 /* PNScatterChartData.h */,
+				F1908FD51CD988520030FA91 /* PNScatterChartData.m */,
+				F1908FD61CD988520030FA91 /* PNScatterChartDataItem.h */,
+				F1908FD71CD988520030FA91 /* PNScatterChartDataItem.m */,
+			);
+			path = PNChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1908F7E1CD988440030FA91 /* PNChartDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1908FAC1CD988450030FA91 /* Build configuration list for PBXNativeTarget "PNChartDemo" */;
+			buildPhases = (
+				F1908F7B1CD988440030FA91 /* Sources */,
+				F1908F7C1CD988440030FA91 /* Frameworks */,
+				F1908F7D1CD988440030FA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PNChartDemo;
+			productName = PNChartDemo;
+			productReference = F1908F7F1CD988440030FA91 /* PNChartDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1908F971CD988450030FA91 /* PNChartDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1908FAF1CD988450030FA91 /* Build configuration list for PBXNativeTarget "PNChartDemoTests" */;
+			buildPhases = (
+				F1908F941CD988450030FA91 /* Sources */,
+				F1908F951CD988450030FA91 /* Frameworks */,
+				F1908F961CD988450030FA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1908F9A1CD988450030FA91 /* PBXTargetDependency */,
+			);
+			name = PNChartDemoTests;
+			productName = PNChartDemoTests;
+			productReference = F1908F981CD988450030FA91 /* PNChartDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1908FA21CD988450030FA91 /* PNChartDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1908FB21CD988450030FA91 /* Build configuration list for PBXNativeTarget "PNChartDemoUITests" */;
+			buildPhases = (
+				F1908F9F1CD988450030FA91 /* Sources */,
+				F1908FA01CD988450030FA91 /* Frameworks */,
+				F1908FA11CD988450030FA91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1908FA51CD988450030FA91 /* PBXTargetDependency */,
+			);
+			name = PNChartDemoUITests;
+			productName = PNChartDemoUITests;
+			productReference = F1908FA31CD988450030FA91 /* PNChartDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1908F771CD988440030FA91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = FrederickChen;
+				TargetAttributes = {
+					F1908F7E1CD988440030FA91 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F1908F971CD988450030FA91 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F1908F7E1CD988440030FA91;
+					};
+					F1908FA21CD988450030FA91 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F1908F7E1CD988440030FA91;
+					};
+				};
+			};
+			buildConfigurationList = F1908F7A1CD988440030FA91 /* Build configuration list for PBXProject "PNChartDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1908F761CD988440030FA91;
+			productRefGroup = F1908F801CD988440030FA91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1908F7E1CD988440030FA91 /* PNChartDemo */,
+				F1908F971CD988450030FA91 /* PNChartDemoTests */,
+				F1908FA21CD988450030FA91 /* PNChartDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1908F7D1CD988440030FA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1908F921CD988450030FA91 /* LaunchScreen.storyboard in Resources */,
+				F1908F8F1CD988450030FA91 /* Assets.xcassets in Resources */,
+				F1908F8D1CD988450030FA91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1908F961CD988450030FA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1908FA11CD988450030FA91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1908F7B1CD988440030FA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1908FDE1CD988520030FA91 /* PNLineChart.m in Sources */,
+				F1908FF01CD99D950030FA91 /* UICountingLabel.m in Sources */,
+				F1908FEA1CD989E00030FA91 /* UIColor+Hex.m in Sources */,
+				F1908FD91CD988520030FA91 /* PNBarChart.m in Sources */,
+				F1908FDC1CD988520030FA91 /* PNColor.m in Sources */,
+				F1908FE31CD988520030FA91 /* PNRadarChart.m in Sources */,
+				F1908FE41CD988520030FA91 /* PNRadarChartDataItem.m in Sources */,
+				F1908F8A1CD988450030FA91 /* ViewController.m in Sources */,
+				F1908FD81CD988520030FA91 /* PNBar.m in Sources */,
+				F1908FE61CD988520030FA91 /* PNScatterChartData.m in Sources */,
+				F1908FE01CD988520030FA91 /* PNLineChartDataItem.m in Sources */,
+				F1908FDA1CD988520030FA91 /* PNChartLabel.m in Sources */,
+				F1908F871CD988450030FA91 /* AppDelegate.m in Sources */,
+				F1908FE71CD988520030FA91 /* PNScatterChartDataItem.m in Sources */,
+				F1908FED1CD99C5F0030FA91 /* CenterView.m in Sources */,
+				F1908FE21CD988520030FA91 /* PNPieChartDataItem.m in Sources */,
+				F1908F841CD988450030FA91 /* main.m in Sources */,
+				F1908FDF1CD988520030FA91 /* PNLineChartData.m in Sources */,
+				F1908FE51CD988520030FA91 /* PNScatterChart.m in Sources */,
+				F1908FDB1CD988520030FA91 /* PNCircleChart.m in Sources */,
+				F1908FE11CD988520030FA91 /* PNPieChart.m in Sources */,
+				F1908FDD1CD988520030FA91 /* PNGenericChart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1908F941CD988450030FA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1908F9D1CD988450030FA91 /* PNChartDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1908F9F1CD988450030FA91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1908FA81CD988450030FA91 /* PNChartDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1908F9A1CD988450030FA91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1908F7E1CD988440030FA91 /* PNChartDemo */;
+			targetProxy = F1908F991CD988450030FA91 /* PBXContainerItemProxy */;
+		};
+		F1908FA51CD988450030FA91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1908F7E1CD988440030FA91 /* PNChartDemo */;
+			targetProxy = F1908FA41CD988450030FA91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1908F8B1CD988450030FA91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1908F8C1CD988450030FA91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1908F901CD988450030FA91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1908F911CD988450030FA91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1908FAA1CD988450030FA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1908FAB1CD988450030FA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1908FAD1CD988450030FA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PNChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.epassolydemo.com.PNChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1908FAE1CD988450030FA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PNChartDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.epassolydemo.com.PNChartDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1908FB01CD988450030FA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PNChartDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.epassolydemo.com.PNChartDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PNChartDemo.app/PNChartDemo";
+			};
+			name = Debug;
+		};
+		F1908FB11CD988450030FA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PNChartDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.epassolydemo.com.PNChartDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PNChartDemo.app/PNChartDemo";
+			};
+			name = Release;
+		};
+		F1908FB31CD988450030FA91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PNChartDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.epassolydemo.com.PNChartDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PNChartDemo;
+			};
+			name = Debug;
+		};
+		F1908FB41CD988450030FA91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PNChartDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.epassolydemo.com.PNChartDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PNChartDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1908F7A1CD988440030FA91 /* Build configuration list for PBXProject "PNChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1908FAA1CD988450030FA91 /* Debug */,
+				F1908FAB1CD988450030FA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1908FAC1CD988450030FA91 /* Build configuration list for PBXNativeTarget "PNChartDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1908FAD1CD988450030FA91 /* Debug */,
+				F1908FAE1CD988450030FA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1908FAF1CD988450030FA91 /* Build configuration list for PBXNativeTarget "PNChartDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1908FB01CD988450030FA91 /* Debug */,
+				F1908FB11CD988450030FA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1908FB21CD988450030FA91 /* Build configuration list for PBXNativeTarget "PNChartDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1908FB31CD988450030FA91 /* Debug */,
+				F1908FB41CD988450030FA91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1908F771CD988440030FA91 /* Project object */;
+}
